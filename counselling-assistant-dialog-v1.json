@@ -1,0 +1,3821 @@
+{
+  "name": "Counselling Assistant-dialog",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 6,
+    "entities": 1,
+    "dialog_nodes": 157
+  },
+  "status": "Available",
+  "created": "2024-06-27T00:34:22.054Z",
+  "updated": "2024-06-27T00:34:22.054Z",
+  "language": "en",
+  "skill_id": "d500c0f1-5f2a-43f4-b071-d75031394706",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2024-06-27T00:34:22.054Z",
+    "intents": [
+      {
+        "intent": "Greeting",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "examples": [
+          {
+            "text": "Heyya",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Hii",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Hello",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Good morning",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Good afternoon",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Good evening",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Hey",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Hi",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          }
+        ],
+        "description": "Collection of Greeting"
+      },
+      {
+        "intent": "deemed",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "examples": [
+          {
+            "text": "best deemed universities",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "list of deemed universities",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "what about deemed university",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "tell me best deemed universities",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "deemd",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "top deemed universities",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          }
+        ],
+        "description": "top deemed universities"
+      },
+      {
+        "intent": "Bye",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "examples": [
+          {
+            "text": "Bye",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Good bye",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Byee",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Im going",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "See you",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "c ya",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          }
+        ],
+        "description": "Collection of leaving words"
+      },
+      {
+        "intent": "best_college",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "examples": [
+          {
+            "text": "iit colleges",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "best colleges",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "best colleges in india",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "show me best colleges?",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "top 10 colleges",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "top colleges in India",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "best",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "best iit colleges",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "top iit colleges",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "top 10 iit colleges",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "best IIT colleges in India",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "iit",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "1",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "best 10 colleges?",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          }
+        ],
+        "description": "best colleges in India"
+      },
+      {
+        "intent": "Thanks",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "examples": [
+          {
+            "text": "Thnx",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Tysm",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Tq",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Thanks",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "Thank you",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          }
+        ],
+        "description": "Collection of Thanks"
+      },
+      {
+        "intent": "autonomous",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "examples": [
+          {
+            "text": "what about autonomous colleges",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "autonomous colleges in India?",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "top autonomous colleges in India?",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "top 10 autonomous colleges",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "best autonomous colleges",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "autonomos",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          },
+          {
+            "text": "autonomous?",
+            "created": "2024-06-27T00:34:22.333Z",
+            "updated": "2024-06-27T00:34:22.333Z"
+          }
+        ],
+        "description": "best autonomous colleges"
+      }
+    ],
+    "updated": "2024-06-27T00:34:22.054Z",
+    "entities": [
+      {
+        "entity": "sys-number",
+        "values": [],
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z"
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 6,
+          "entities": 1,
+          "dialog_nodes": 157
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fees for TISS vary by program. For the MA programs, the annual fees are approximately INR 50,000.\n     - *Links:* [TISS Fees](https://www.tiss.edu/view/6/admissions/fee-structure/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719326070059",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_3_1719331834754",
+        "previous_sibling": "node_4_1719331832564"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "TISS has a strong placement record with top companies and organizations in social work, research, and development sectors. The average package is around INR 5-6 LPA.\n     - *Links:* [TISS Placements](https://www.tiss.edu/view/6/placements/overview/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719326070059",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_5_1719331945565",
+        "previous_sibling": "node_10_1719331837911"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " TISS has modern classrooms, well-equipped libraries, and advanced research centers. The campus also includes sports facilities and auditoriums.\n     - *Links:* [TISS Infrastructure](https://www.tiss.edu/view/6/campus-life/infrastructure/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719326070059",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_10_1719331837911",
+        "previous_sibling": "node_3_1719331834754"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " TISS offers hostel facilities with mess services providing a variety of cuisines. Hostels are well-maintained with Wi-Fi, common rooms, and recreational areas.\n     - *Links:* [TISS Hostel](https://www.tiss.edu/view/6/campus-life/hostels/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719326070059",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_4_1719331832564"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "n 2024, the average salary for B.Tech graduates was INR 21 LPA, with the highest package reaching INR 63.78 LPA. The placement rate was around 88% [[❞]](https://www.careers360.com/university/indian-institute-of-technology-hyderabad).\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719319943647",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_10_1719329973709",
+        "previous_sibling": "node_4_1719329969807"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The hostel fee is around INR 30,000 per year, and the tuition fee for B.Tech programs is approximately INR 2,25,000 per year [[❞]](https://www.collegedekho.com/colleges/iit-hyderabad-campus) [[❞]](https://www.careers360.com/university/indian-institute-of-technology-hyderabad).\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719319943647",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_4_1719329966913",
+        "previous_sibling": "node_2_1719329964026"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The campus includes modern classrooms, over 100 research labs, a well-equipped library, sports facilities, a gym, an auditorium, and several cafes [[❞]](https://www.collegedekho.com/colleges/iit-hyderabad-campus) [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-hyderabad-facilities).\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719319943647",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_4_1719329969807",
+        "previous_sibling": "node_4_1719329966913"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IIT Hyderabad provides separate hostel facilities for boys and girls, offering various recreational activities. The dining hall serves both North Indian and South Indian cuisine [[❞]](https://www.collegedekho.com/colleges/iit-hyderabad-campus) [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-hyderabad-facilities).\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719319943647",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_2_1719329964026"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The campus spans 936 acres and includes a central library, medical facilities, a gym, sports complex, and IT infrastructure. There are also auditoriums for events [[❞]](https://www.careers360.com/university/indian-institute-of-technology-bhubaneswar/facilities) [[❞]](https://www.careers360.com/university/indian-institute-of-technology-bhubaneswar).\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719319938493",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_1_1719329913075",
+        "previous_sibling": "node_1_1719329910498"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "In 2023, the average salary for B.Tech graduates was INR 17.50 LPA, with a high placement rate of over 88%. Top recruiters included Google, Microsoft, and Amazon [[❞]](https://www.careers360.com/university/indian-institute-of-technology-bhubaneswar) [[❞]](https://www.iitbbs.ac.in/index.php/home/placement-2023/).\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719319938493",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_2_1719329915150",
+        "previous_sibling": "node_1_1719329913075"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The tuition fee for B.Tech programs is around INR 2,21,900 per year [[❞]](https://www.careers360.com/university/indian-institute-of-technology-bhubaneswar).\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719319938493",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_1_1719329910498",
+        "previous_sibling": "node_2_1719329907712"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IIT Bhubaneswar offers three boys' hostels and one girls' hostel with dining facilities and common rooms. The campus also includes a cafeteria with nutritious food options [[❞]](https://www.careers360.com/university/indian-institute-of-technology-bhubaneswar/facilities) [[❞]](https://www.careers360.com/university/indian-institute-of-technology-bhubaneswar)."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719319938493",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_2_1719329907712"
+      },
+      {
+        "type": "standard",
+        "title": "Defence Institute of Advanced Technology",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:8",
+        "dialog_node": "node_4_1719326073685",
+        "previous_sibling": "node_7_1719326070059"
+      },
+      {
+        "type": "standard",
+        "title": "Birla Institute of Technology ",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:6",
+        "dialog_node": "node_7_1719326067429",
+        "previous_sibling": "node_6_1719326064168"
+      },
+      {
+        "type": "standard",
+        "title": "Homi Bhabha National Institute",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_8_1719326056765",
+        "previous_sibling": "node_1_1719326054331"
+      },
+      {
+        "type": "standard",
+        "title": "Indian Institute of Space Science and Technology",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:10",
+        "dialog_node": "node_5_1719326081518",
+        "previous_sibling": "node_1_1719326077728"
+      },
+      {
+        "type": "standard",
+        "title": "Indira Gandhi Institute of Development Research",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_8_1719326059384",
+        "previous_sibling": "node_8_1719326056765"
+      },
+      {
+        "type": "standard",
+        "title": "Indian Institute of Foreign Trade ",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:5",
+        "dialog_node": "node_6_1719326064168",
+        "previous_sibling": "node_9_1719326061661"
+      },
+      {
+        "type": "standard",
+        "title": "Tata Institute of Social Sciences",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:7",
+        "dialog_node": "node_7_1719326070059",
+        "previous_sibling": "node_7_1719326067429"
+      },
+      {
+        "type": "standard",
+        "title": "University Institute of Chemical Technology",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:9",
+        "dialog_node": "node_1_1719326077728",
+        "previous_sibling": "node_4_1719326073685"
+      },
+      {
+        "type": "standard",
+        "title": "Indian Agricultural Research Institute",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_9_1719326061661",
+        "previous_sibling": "node_8_1719326059384"
+      },
+      {
+        "type": "standard",
+        "title": "Indian Institute of Science (IISc)",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719266823766",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_1_1719326054331"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "In 2024, the median salary for B.Tech graduates was INR 19.69 LPA, while M.Tech graduates had a median salary of INR 12 LPA. The placement rate is high, with numerous top companies recruiting from the campus [[❞]](https://www.collegedekho.com/colleges/iit-roorkee-campus).\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719319876194",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_4_1719329768510",
+        "previous_sibling": "node_3_1719329765214"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The hostel fee is around INR 15,000 per semester. The tuition fee for B.Tech programs is approximately INR 2,23,350 per year [[❞]](https://www.careers360.com/university/indian-institute-of-technology-roorkee/facilities) [[❞]](https://www.collegedekho.com/colleges/iit-roorkee-campus).\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719319876194",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_10_1719329754355",
+        "previous_sibling": "node_5_1719329748830"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The institute features modern classrooms, well-equipped laboratories, a large library, sports facilities, an auditorium, medical facilities, and robust IT infrastructure [[❞]](https://www.careers360.com/university/indian-institute-of-technology-roorkee/facilities) [[❞]](https://www.collegedekho.com/colleges/iit-roorkee-campus).\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719319876194",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_3_1719329765214",
+        "previous_sibling": "node_10_1719329754355"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IIT Roorkee has 10 boys' hostels and 3 girls' hostels, equipped with Wi-Fi, common rooms, and dining facilities. The food quality is average but adequate for students [[❞]](https://www.careers360.com/university/indian-institute-of-technology-roorkee/facilities) [[❞]](https://www.collegedekho.com/colleges/iit-roorkee-campus).\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719319876194",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_5_1719329748830"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " NIE has a good placement record with companies like Infosys, Wipro, and TCS visiting the campus. The average package is around INR 4-5 LPA.\n     - *Links:* [NIE Placements](https://www.nie.ac.in/placements)\n\n### 8. Amritsar "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719323539493",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_5_1719331092590",
+        "previous_sibling": "node_2_1719331089516"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " Fees for NIE range from INR 80,000 to 1,20,000 per year for undergraduate programs.\n     - *Links:* [NIE Fees](https://www.nie.ac.in/fees)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719323539493",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_3_1719331084648",
+        "previous_sibling": "node_4_1719331079572"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The institute boasts modern infrastructure with state-of-the-art labs, libraries, and sports facilities.\n     - *Links:* [NIE Infrastructure](https://www.nie.ac.in/infrastructure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719323539493",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_2_1719331089516",
+        "previous_sibling": "node_3_1719331084648"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "NIE offers hostel facilities with mess services providing a variety of food options. Hostels are equipped with necessary amenities.\n     - *Links:* [NIE Hostel](https://www.nie.ac.in/hostel)\n\n"
+                },
+                {
+                  "text": " Fees for NIE range from INR 80,000 to 1,20,000 per year for undergraduate programs.\n     - *Links:* [NIE Fees](https://www.nie.ac.in/fees)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719323539493",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_4_1719331079572"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " The placement cell at IIT Guwahati is robust, with a dedicated Centre for Career Development. The highest package for the 2022-2023 academic year was around INR 2.4 crore per annum, with a good placement rate across various branches. Top recruiters include major tech companies, financial firms, and consulting giants [[❞]](https://www.iitg.ac.in/ccd/reports.html) [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-guwahati-facilities).\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719319881690",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_1_1719329855681",
+        "previous_sibling": "node_2_1719329852942"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Academic Facilities*: Modern lecture halls, a central library with over 1,17,000 items, computer centre, and various labs [[❞]](https://www.careers360.com/university/indian-institute-of-technology-guwahati/facilities) [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-guwahati-facilities).\n- *Recreational Facilities*: Sports complex with an indoor stadium, swimming pool, gymnasium, and fields for outdoor sports [[❞]](https://www.careers360.com/university/indian-institute-of-technology-guwahati/facilities) [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-guwahati-facilities).\n- *Other Facilities*: Medical centre with 30 beds, Wi-Fi across the campus, auditorium, and commercial complex [[❞]](https://www.careers360.com/university/indian-institute-of-technology-guwahati/facilities) [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-guwahati-facilities).\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719319881690",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_2_1719329852942",
+        "previous_sibling": "node_2_1719329849364"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The hostel fee is approximately INR 3400 per semester [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-guwahati-facilities).\n- Tuition and other fees vary depending on the program, but for undergraduate programs, the annual tuition fee is around INR 2,00,000. Additional costs include mess charges, hostel rent, and other miscellaneous expenses [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-guwahati-facilities).\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719319881690",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_2_1719329849364",
+        "previous_sibling": "node_3_1719329838647"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "*Hostels*: There are 11 boys' hostels and 2 girls' hostels. Each student gets a single-seater room equipped with modern amenities. The hostels include facilities for sports, recreation (TV, indoor games, gymnasium), and network connectivity in every room. Hostels have their own mess, canteen, stationery store, juice centre, pantry, indoor games facilities, music rooms, library, TV room, and laundry room [[❞]](https://www.collegedekho.com/colleges/iit-guwahati-campus) [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-guwahati-facilities).\n- *Food*: The quality of food in the hostel mess is average and costs around INR 40 per meal. There is also a 24/7 canteen available to cater to students' needs [[❞]](https://www.getmyuni.com/college/indian-institute-of-technology-iit-guwahati-facilities).\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719319881690",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_3_1719329838647"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The college has a robust placement cell with high placement rates. Companies like Cognizant, TCS, and Wipro are regular recruiters. The average package is around INR 5-6 LPA.\n     - *Links:* [PSG Tech Placements](https://www.psgtech.edu/placements.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1719322772644",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_8_1719330324024",
+        "previous_sibling": "node_5_1719330321896"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fee structure for PSG Tech varies by course. For undergraduate programs, it ranges from INR 90,000 to 1,20,000 per year.\n     - *Links:* [PSG Tech Fees](https://www.psgtech.edu/fees.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1719322772644",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_5_1719330319663",
+        "previous_sibling": "node_9_1719330317279"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " PSG Tech is known for its comprehensive infrastructure, including modern labs, libraries, sports complexes, and innovation centers.\n     - *Links:* [PSG Tech Infrastructure](https://www.psgtech.edu/infrastructure.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1719322772644",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_5_1719330321896",
+        "previous_sibling": "node_5_1719330319663"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "PSG Tech provides well-maintained hostels with dining facilities offering nutritious meals. There are separate hostels for boys and girls, each with recreational facilities.\n     - *Links:* [PSG Tech Hostel](https://www.psgtech.edu/hostel.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1719322772644",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_9_1719330317279"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "- MSRIT boasts excellent infrastructure with modern laboratories, a well-stocked library, smart classrooms, and dedicated research centers. The campus also includes sports facilities, a health center, and multiple auditoriums.\n     - *Links:* [MSRIT Infrastructure](https://www.msrit.edu/infrastructure.html)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719323558075",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_1_1719331308347",
+        "previous_sibling": "node_2_1719331302480"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "MSRIT has a robust placement cell with a high placement rate. Top companies like Microsoft, Google, and IBM frequently recruit from the campus. The highest package offered can go up to INR 50 LPA, with an average package around INR 7.5 LPA.\n     - *Links:* [MSRIT Placements](https://www.msrit.edu/placements.html)\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719323558075",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_7_1719331313301",
+        "previous_sibling": "node_1_1719331308347"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\n     - The fees for MSRIT vary by program. For B.Tech programs, the annual fees range from INR 2,00,000 to 2,30,000. The fee structure for postgraduate and other programs differs.\n     - *Links:* [MSRIT Fees](https://www.msrit.edu/fee-structure.html)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719323558075",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_2_1719331302480",
+        "previous_sibling": "node_8_1719331299109"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "MSRIT provides separate hostels for boys and girls, with options for single and shared rooms. The hostels are equipped with Wi-Fi, a gym, common rooms, and round-the-clock security. The mess offers a variety of cuisines, catering to different dietary needs.\n     - *Links:* [MSRIT Hostel](https://www.msrit.edu/hostels.html)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719323558075",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_8_1719331299109"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " IIFT has modern classrooms, well-equipped libraries, and advanced research centers. The campus also includes sports facilities and auditoriums.\n     - *Links:* [IIFT Infrastructure](http://tedu.iift.ac.in/iift/infrastructure.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_6_1719326064168",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_9_1719331711244",
+        "previous_sibling": "node_9_1719331708689"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "he fees for IIFT vary by program. For the MBA (IB) program, the fees are approximately INR 18,25,000 for the entire course.\n     - *Links:* [IIFT Fees](http://tedu.iift.ac.in/iift/fees.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_6_1719326064168",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_9_1719331708689",
+        "previous_sibling": "node_2_1719331706243"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IIFT has an excellent placement record with top companies like Deloitte, Amazon, and HSBC recruiting from the campus. The highest package can go up to INR 75 LPA, with an average package around INR 20 LPA.\n     - *Links:* [IIFT Placements](http://tedu.iift.ac.in/iift/placements.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_6_1719326064168",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_3_1719331713955",
+        "previous_sibling": "node_9_1719331711244"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IIFT provides separate hostels for boys and girls with mess services offering a variety of cuisines. Hostels are equipped with Wi-Fi, common rooms, and recreational facilities.\n     - *Links:* [IIFT Hostel](http://tedu.iift.ac.in/iift/hostels.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_6_1719326064168",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_2_1719331706243"
+      },
+      {
+        "type": "standard",
+        "title": "List of IIT",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\nThere are 17 IIT's and 1 IISc participating in GATE COAP. \nList of IIT's partcipating in GATE COAP:\nIISc Bangalore\n\n1. IIT (ISM) Dhanbad\n\n2. IIT Bhilai\n\n3. IIT Jammu\n\n4. IIT Bhubaneswar \n\n5. IIT Jodhpur\n\n6. IIT BHU\n\n7. IIT Kanpur\n\n8. IIT Bombay\n\n9. IIT Kharagpur\n\n10. IIT Delhi\n\n11. IIT Madras\n\n12. IIT Dharwad\n\n13. IIT Mandi\n\n14. IIT Gandhinagar\n\n15. IIT Palakkad\n\n16. IIT Goa\n\n17. IIT Patna\n\n18. IIT Guwahati\n\n19. IIT Roorkee\n\n20. IIT Hyderabad\n\n21. IIT Ropar\n\n22. IIT Indore\n\n23. IIT Tirupati\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            },
+            {
+              "values": [],
+              "response_type": "text",
+              "selection_policy": "multiline"
+            },
+            {
+              "values": [
+                {
+                  "text": "\nThere are 17 IIT's and 1 IISc participating in GATE COAP. \nList of IIT's partcipating in GATE COAP:\nIISc Bangalore\n\n1. IIT (ISM) Dhanbad\n\n2. IIT Bhilai\n\n3. IIT Jammu\n\n4. IIT Bhubaneswar \n\n5. IIT Jodhpur\n\n6. IIT BHU\n\n7. IIT Kanpur\n\n8. IIT Bombay\n\n9. IIT Kharagpur\n\n10. IIT Delhi\n\n11. IIT Madras\n\n12. IIT Dharwad\n\n13. IIT Mandi\n\n14. IIT Gandhinagar\n\n15. IIT Palakkad\n\n16. IIT Goa\n\n17. IIT Patna\n\n18. IIT Guwahati\n\n19. IIT Roorkee\n\n20. IIT Hyderabad\n\n21. IIT Ropar\n\n22. IIT Indore\n\n23. IIT Tirupati\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "Welcome",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "#Participation && @IIT || #list",
+        "dialog_node": "node_7_1718802136218"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IISc boasts state-of-the-art laboratories, a central library, advanced research centers, and extensive sports facilities. The campus also includes a health center, a gym, and multiple auditoriums.\n     - *Links:* [IISc Infrastructure](https://www.iisc.ac.in/infrastructure/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719326054331",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_7_1719331382475",
+        "previous_sibling": "node_2_1719331379858"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fees vary depending on the program. For undergraduate programs, the tuition fees are approximately INR 20,200 per semester.\n     - *Links:* [IISc Fee Structure](https://www.iisc.ac.in/ug/fees/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719326054331",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_2_1719331379858",
+        "previous_sibling": "node_8_1719331376476"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IISc has an excellent placement record, with top companies like Google, Microsoft, and Intel recruiting from the campus. The highest package can go up to INR 40 LPA, with an average package around INR 10-12 LPA.\n     - *Links:* [IISc Placements](https://www.iisc.ac.in/placements/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719326054331",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_3_1719331385509",
+        "previous_sibling": "node_7_1719331382475"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IISc provides well-maintained hostel facilities for both boys and girls. The hostels are equipped with Wi-Fi, common rooms, and recreational areas. The mess serves a variety of cuisines, catering to the diverse student population.\n     - *Links:* [IISc Hostel](https://www.iisc.ac.in/hostels/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719326054331",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_8_1719331376476"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "SPCE has a strong placement record with companies like L&T, Infosys, and TCS visiting the campus. The average package is around INR 5-6 LPA.\n     - *Links:* [SPCE Placements](https://www.spce.ac.in/placements)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719322800474",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_1_1719330603364",
+        "previous_sibling": "node_7_1719330600734"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "he college has excellent infrastructure with modern labs, a well-stocked library, and sports facilities.\n     - *Links:* [SPCE Infrastructure](https://www.spce.ac.in/infrastructure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719322800474",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_7_1719330600734",
+        "previous_sibling": "node_4_1719330593054"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Fees for SPCE range from INR 1,20,000 to 1,50,000 per year for B.Tech programs.\n     - *Links:* [SPCE Fees](https://www.spce.ac.in/fees)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719322800474",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_4_1719330593054",
+        "previous_sibling": "node_2_1719330590707"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "SPCE offers hostel facilities with mess providing nutritious meals. The hostels are well-equipped with Wi-Fi, common rooms, and recreational areas.\n     - *Links:* [SPCE Hostel](https://www.spce.ac.in/hostel)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719322800474",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_2_1719330590707"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fees for ICT Mumbai vary by program. For B.Tech programs, the annual fees are approximately INR 85,350.\n     - *Links:* [ICT Mumbai Fees](https://www.ictmumbai.edu.in/DisplayPage.aspx?page=m&ItemID=22&n=Fees%20Structure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719326077728",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_6_1719332293502",
+        "previous_sibling": "node_5_1719332290256"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " ICT Mumbai has an excellent placement record with top chemical and pharmaceutical companies like Reliance, Asian Paints, and L'Oréal recruiting from the campus. The highest package can go up to INR 20 LPA, with an average package around INR 6-7 LPA.\n     - *Links:* [ICT Mumbai Placements](https://www.ictmumbai.edu.in/DisplayPage.aspx?page=m&ItemID=23&n=Placements)\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719326077728",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_7_1719332298789",
+        "previous_sibling": "node_9_1719332296135"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "ICT Mumbai has state-of-the-art laboratories, a well-stocked library, modern classrooms, and research centers. The campus also includes sports facilities, an auditorium, and a health center.\n     - *Links:* [ICT Mumbai Infrastructure](https://www.ictmumbai.edu.in/DisplayPage.aspx?page=m&ItemID=14&n=Infrastructure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719326077728",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_9_1719332296135",
+        "previous_sibling": "node_6_1719332293502"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " ICT Mumbai provides hostel facilities for both boys and girls. The hostels are equipped with Wi-Fi, recreational rooms, and basic amenities. The mess serves a variety of cuisines to cater to different tastes.\n     - *Links:* [ICT Mumbai Hostel](https://www.ictmumbai.edu.in/DisplayPage.aspx?page=m&ItemID=37&n=Hostels)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719326077728",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_5_1719332290256"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " The fees vary depending on the course. For M.Tech programs, the fees are approximately INR 30,000 per year.\n     - *Links:* [HBNI Fees](https://www.hbni.ac.in/fees.html)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719326056765",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_4_1719331396100",
+        "previous_sibling": "node_1_1719331392729"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "HBNI has good placement opportunities, particularly in research and development sectors. Companies like BARC and other government research organizations are major recruiters.\n     - *Links:* [HBNI Placements](https://www.hbni.ac.in/placements.html)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719326056765",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_5_1719331402461",
+        "previous_sibling": "node_10_1719331399942"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "HBNI has advanced laboratories, research centers, libraries, and sports facilities. The institute emphasizes on research and development.\n     - *Links:* [HBNI Infrastructure](https://www.hbni.ac.in/infrastructure.html)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719326056765",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_10_1719331399942",
+        "previous_sibling": "node_4_1719331396100"
+      },
+      {
+        "type": "standard",
+        "parent": "node_8_1719326056765",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_1_1719331392729"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Fees range from INR 1,00,000 to 1,30,000 per year for undergraduate programs.\n     - *Links:* [Heritage Fees](https://www.heritageit.edu/Fees.aspx)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719322786990",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_2_1719330535762",
+        "previous_sibling": "node_9_1719330533108"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The institute has modern infrastructure with advanced labs, libraries, and sports facilities, promoting an effective learning environment.\n     - *Links:* [Heritage Infrastructure](https://www.heritageit.edu/Infrastructure.aspx)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719322786990",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_10_1719330539268",
+        "previous_sibling": "node_2_1719330535762"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Heritage Institute has good placement statistics with companies like TCS, Wipro, and Infosys recruiting. The average package is around INR 4-5 LPA.\n     - *Links:* [Heritage Placements](https://www.heritageit.edu/Placements.aspx)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719322786990",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_5_1719330542348",
+        "previous_sibling": "node_10_1719330539268"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Heritage Institute provides hostel facilities with mess services offering a variety of meals. Hostels are equipped with Wi-Fi and recreational facilities.\n     - *Links:* [Heritage Hostel](https://www.heritageit.edu/Hostel.aspx)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719322786990",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_9_1719330533108"
+      },
+      {
+        "type": "standard",
+        "title": "fee",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! The **fee structure for IIT Delhi** varies based on the category of students. Here are the details for the Jan-May 2024 semester:\n\n1. **General/OBC/EWS Category**:\n   - Tuition Fee: ₹1,00,000 (one-time payment)\n   - Other charges payable each semester: ₹8,150\n   - Refundable caution deposit (Inst. + Lib. Security): ₹5,350\n   - Medical insurance premium per annum + Student Distress Fund: ₹900\n   - Inst. Residence Fee: ₹13,250\n   - Total Institute Fees: ₹1,35,650 (with Inst. residence allotted) or ₹1,22,400 (without Inst. residence allotted)\n\n2. **SC/ST/PD Category**:\n   - Tuition Fee: Nil\n   - Other charges payable each semester: ₹8,150\n   - Refundable caution deposit (Inst. + Lib. Security): ₹5,350\n   - Medical insurance premium per annum + Student Distress Fund: ₹900\n   - Inst. Residence Fee: ₹13,250\n   - Total Institute Fees: ₹35,650 (with Inst. residence allotted) or ₹22,400 (without Inst. residence allotted)\n\n3. **Payment to JoSAA**:\n   - Already paid to JoSAA: ₹40,000\n   - Payment through JoSAA towards Institute Fee: ₹36,000\n\nPlease note that mess fee, institute residence admission fee, and residence security deposit charges will be paid separately when students come to the campus¹. If you have any more questions, feel free to ask! 😊🎓\n\nSource: Conversation with Copilot, 26/6/2024\n(1) DETAILS OF INSTITUTE FEE TO BE PAID BY 2023 ENTRY UG STUDENTS (B. TECH .... https://home.iitd.ac.in/uploads/ug/23-24/INSTRUCTION%20SHEET%203%20and%20Annexure%20D%20-%20Fee%20Structure%20%282023%29.pdf.\n(2) IIT Delhi Fees 2020 - Tuition, Hostel & Security Fee ... - EMBIBE. https://www.embibe.com/exams/iit-delhi-fees.\n(3) IIT Delhi Fee Structure and Courses List 2024 - GetMyUni. https://www.getmyuni.com/college/indian-institute-of-technology-iit-delhi-courses-fees.\n(4) IIT Fee Structure for B.Tech Courses (Revised): Check Annual and .... https://www.geeksforgeeks.org/iit-fee-structure-for-b-tech-courses/.\n(5) Getty Images. https://www.gettyimages.com/detail/photo/delhi-indian-institute-of-technology-delhi-royalty-free-image/1415175310."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719318620326",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_7_1719329399864",
+        "previous_sibling": "node_1_1719329396614"
+      },
+      {
+        "type": "standard",
+        "title": "plc",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Let's take a look at the **placement statistics** for **IIT Delhi**:\n\n- **2022-23 Placement Season**:\n  - Around **650 full-time job offers** and approximately **550 unique job selections** were secured by students by the end of Day 1 (spanning December 1 and 2, 2022).\n  - Over **250 pre-placement offers** were also received.\n  - **Top recruiters** on campus included American Express, Bajaj Auto, Boston Consulting Group, Enphase Solar Energy, Intel, Praxis Global Alliance, and Strategy&.\n  - More than **50 students** received domestic offers with a **CTC of over Rs. 1 crore per annum**.\n  - Around **20 students** received international job offers from various geographies¹.\n\n- **2023 Placements**:\n  - IIT Delhi witnessed **1050 placement offers**, including pre-placement offers (PPOs).\n  - Over **1000 students** were uniquely selected after the conclusion of phase 1 of the placement season for the academic year 2023–24⁴.\n\n- **2024 Placements**:\n  - In 2024, **1000 students** received **1050 placement offers**, including pre-placement offers from **20 organizations**.\n  - Students received **more than 50 international offers**.\n  - Notable recruiters included Air India, Microsoft, Texas Instruments, Goldman Sachs, and Bajaj Auto³.\n\nIIT Delhi's rigorous academic curriculum and comprehensive education contribute to its strong placement track record. If you have more questions or need further details, feel free to ask! 😊🎓\n\nSource: Conversation with Copilot, 26/6/2024\n(1) Placement Season at IIT Delhi for Academic year 2022-23 Commences. https://home.iitd.ac.in/show.php?id=249&in_sections=News.\n(2) Placement Season 2023-24: IIT Delhi Students Receive Around 1050 Job .... https://home.iitd.ac.in/show.php?id=208&in_sections=Press.\n(3) IIT Delhi Placements 2024: Highest Package: INR 2 CPA ... - Collegedunia. https://collegedunia.com/university/25455-iit-delhi-indian-institute-of-technology-iitd-new-delhi/placement.\n(4) IIT Delhi Placements 2023 – Average Package, Highest Package, Salary. https://www.careers360.com/university/indian-institute-of-technology-delhi/placement."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719318620326",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_7_1719329404956",
+        "previous_sibling": "node_3_1719329402337"
+      },
+      {
+        "type": "standard",
+        "title": "infr",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! **IIT Delhi** has a well-established infrastructure that supports its academic and research endeavors. Here are some key aspects of the infrastructure at IIT Delhi:\n\n1. **Campus Area**:\n   - The **IIT Delhi campus** spans **330 acres** and is divided into different functional areas:\n     - **West Campus (Hostel Area)**: This section houses student hostels.\n     - **East Campus (Residential Area)**: It accommodates faculty and staff residences.\n     - **Main Administrative Building and Academic Area**: This is where academic departments, laboratories, and administrative offices are located⁶.\n\n2. **Facilities**:\n   - **Central Research Facility**: Provides advanced research infrastructure for various disciplines.\n   - **Central Workshop**: Equipped for fabrication, machining, and prototyping.\n   - **DAILAB**: A data analytics and artificial intelligence lab.\n   - **High-Performance Computing**: Supports computational research.\n   - **Nanoscale Research Facility**: Focused on nanotechnology research.\n   - **SCFBio@IITD**: A bioinformatics facility.\n   - **Central Library**: Fully functional and accessible 24/7.\n   - **Hostels**: Accommodate students with various amenities.\n   - **Gymnasium Hall**, **Amphitheatre**, **Swimming Pool**, **Music Room**, and more²⁷.\n\n3. **Student Activities Centre**:\n   - Provides facilities for extracurricular activities and physical development.\n   - Includes clubs, sports, and cultural events.\n   - NCC, NSS, and NSO wings are active on campus⁸.\n\nIf you need further details or have specific questions, feel free to ask! 😊🏫🔬\n\nSource: Conversation with Copilot, 26/6/2024\n(1) Facilities : IIT Delhi. https://home.iitd.ac.in/facilities.php.\n(2) IIT Delhi Facilities Details: Hostel, Campus, Infrastructure, Library .... https://www.careers360.com/university/indian-institute-of-technology-delhi/facilities.\n(3) IIT Delhi: Admission, Courses, Fees, Placements - Careers360. https://www.careers360.com/university/indian-institute-of-technology-delhi.\n(4) IIT Delhi: Ranking, Courses, Fees, Admission 2024, Placements, Facilities. https://www.getmyuni.com/college/indian-institute-of-technology-iit-delhi.\n(5) Infrastructure Unit | Indian Institute of Technology Delhi. http://infra.iitd.ac.in/.\n(6) About Infrastructure | Infrastructure Unit - IIT Delhi. http://infra.iitd.ac.in/content/about-infrastructure.\n(7) . https://bing.com/search?q=IIT+Delhi+facilities.\n(8) Indian Institute Of Technology Delhi. https://home.iitd.ac.in/administration.php/content/guest-houses."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719318620326",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_3_1719329402337",
+        "previous_sibling": "node_7_1719329399864"
+      },
+      {
+        "type": "standard",
+        "title": "f and h",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Let's explore the **food and hostel facilities** at **IIT Delhi**:\n\n- **Hostels**:\n  - All hostels at IIT Delhi operate in a cooperative mode, with elected student leadership overseeing operations.\n  - The Board for Hostel Management (BHM) coordinates hostel activities, addressing routine issues and grievances.\n  - Each hostel has a Head of House (faculty member), Warden (faculty member), and elected student representatives.\n  - House Working Committees (HWCs) decide norms of behavior and life within each hostel.\n  - There's a special House Honours Committee (HHC) for disciplinary matters².\n\n- **Food Outlets**:\n  - Cafeterias are spread across the campus, including popular chains like Amul, Lipton, Nescafe, and Cafe Coffee Day.\n  - Some hostels have night mess facilities offering affordable food.\n  - Students can also avail discounts at nearby restaurants by showing their IDs⁴.\n\n- **Other Facilities**:\n  - The campus boasts an amphitheater, swimming pool, music room, robotics room, and gymnasium hall.\n  - A fully functional central library is accessible 24/7.\n  - Wifi is available throughout IIT Delhi[^10^].\n\nIf you have more questions or need further details, feel free to ask! 😊🏫🍽️\n\nSource: Conversation with Copilot, 26/6/2024\n(1) Halls of Residence : IIT Delhi. https://home.iitd.ac.in/hall-of-residence.php.\n(2) Life at IIT Delhi: Campus, Hostel, Library, Social life - Collegedunia. https://collegedunia.com/news/c-25455-campus-life-at-iit-delhi.\n(3) IIT Delhi Facilities Details: Hostel, Campus, Infrastructure, Library .... https://www.careers360.com/university/indian-institute-of-technology-delhi/facilities.\n(4) . https://bing.com/search?q=food+and+hostel+facilities+IIT+Delhi.\n(5) IIT Delhi: Campus, Hostel & Other Facilities - GetMyUni. https://www.getmyuni.com/college/indian-institute-of-technology-iit-delhi-facilities.\n(6) IIT Delhi Infrastructure: Campus, Facilities, Hostel, Library ... - Shiksha. https://www.shiksha.com/university/iit-delhi-indian-institute-of-technology-53938/infrastructure.\n(7) undefined. https://bhm.iitd.ac.in/resources.\n(8) . https://bing.com/search?q=IIT+Delhi+facilities.\n(9) Indian Institute Of Technology Delhi. https://home.iitd.ac.in/administration.php/content/guest-houses.\n(10) Facilities : IIT Delhi. https://home.iitd.ac.in/facilities.php.\n(11) IIT Delhi: Admission, Courses, Fees, Placements - Careers360. https://www.careers360.com/university/indian-institute-of-technology-delhi.\n(12) IIT Delhi: Ranking, Courses, Fees, Admission 2024, Placements, Facilities. https://www.getmyuni.com/college/indian-institute-of-technology-iit-delhi."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719318620326",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_1_1719329396614"
+      },
+      {
+        "type": "standard",
+        "title": "AMRITSAR COLLEGE OF INSTITUTE AND TECHNOLOGY",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:8",
+        "dialog_node": "node_1_1719323545408",
+        "previous_sibling": "node_7_1719323539493"
+      },
+      {
+        "type": "standard",
+        "title": "VELAMMAL COLLEGE OF ENGINEERING",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\nWell done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_2_1719322775974",
+        "previous_sibling": "node_5_1719322772644"
+      },
+      {
+        "type": "standard",
+        "title": "NATIONAL INSTITUTE OF ENGINEERING",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:7",
+        "dialog_node": "node_7_1719323539493",
+        "previous_sibling": "node_1_1719322800474"
+      },
+      {
+        "type": "standard",
+        "title": "SARDAR PATEL COLLEGE OF ENGINEERING",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:6",
+        "dialog_node": "node_1_1719322800474",
+        "previous_sibling": "node_4_1719322786990"
+      },
+      {
+        "type": "standard",
+        "title": "HERITAGE INSTITUTE OF TECHNOLOGY",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:5",
+        "dialog_node": "node_4_1719322786990",
+        "previous_sibling": "node_8_1719322779327"
+      },
+      {
+        "type": "standard",
+        "title": "DAYANANDA COLLEGE OF ENGINEERING",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_8_1719322779327",
+        "previous_sibling": "node_2_1719322775974"
+      },
+      {
+        "type": "standard",
+        "title": "VELLORE INSTITUTE OF TECHNOLOGY",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:9",
+        "dialog_node": "node_8_1719323549995",
+        "previous_sibling": "node_1_1719323545408"
+      },
+      {
+        "type": "standard",
+        "title": "PSG COLLEGE OF TECHNOLOGY",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_5_1719322772644",
+        "previous_sibling": "node_9_1719322769753"
+      },
+      {
+        "type": "standard",
+        "title": "M.S. RAMAIAH INSTITUTE OF TECHNOLOGY",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:10",
+        "dialog_node": "node_8_1719323558075",
+        "previous_sibling": "node_8_1719323549995"
+      },
+      {
+        "type": "standard",
+        "title": "COLLEGE OF ENGINEERING, PUNE",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1719266416654",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_9_1719322769753"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " IARI has modern laboratories, research facilities, libraries, and sports facilities. The institute emphasizes on agricultural research and development.\n     - *Links:* [IARI Infrastructure](https://www.iari.res.in/index.php?option=com_content&view=article&id=78&Itemid=695)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1719326061661",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_7_1719331697070",
+        "previous_sibling": "node_8_1719331694399"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " IARI has good placement opportunities, especially in agricultural research and development sectors. Government organizations and agricultural companies are major recruiters.\n     - *Links:* [IARI Placements](https://www.iari.res.in/index.php?option=com_content&view=article&id=104&Itemid=742)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1719326061661",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_6_1719331699804",
+        "previous_sibling": "node_7_1719331697070"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fees for IARI vary by program. For Ph.D. programs, the annual fees are approximately INR 30,000.\n     - *Links:* [IARI Fees](https://www.iari.res.in/index.php?option=com_content&view=article&id=79&Itemid=700)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1719326061661",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_8_1719331694399",
+        "previous_sibling": "node_5_1719331692124"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IARI offers hostel facilities with mess services providing nutritious meals. Hostels are equipped with necessary amenities and recreational facilities.\n     - *Links:* [IARI Hostel](https://www.iari.res.in/index.php?option=com_content&view=article&id=136&Itemid=740)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1719326061661",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_5_1719331692124"
+      },
+      {
+        "type": "standard",
+        "title": "fee",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! The **fee structure for IIT Kharagpur** varies based on the program. Here are some details:\n\n1. **B.Tech Program (First Year)**:\n   - Tuition Fee: ₹2.24 Lakhs (approximately).\n   - Hostel Fees: Varies based on the batch and semester.\n   - Mess Advance: Paid separately each semester¹.\n\n2. **Ph.D. Program**:\n   - Application Fee (Non-refundable):\n     - Unreserved/OBC/EWS/Transgender candidates: ₹1000\n     - SC/ST/PwD/Women candidates: ₹500³.\n\nIIT Kharagpur consistently attracts top recruiters and provides excellent placement opportunities for its students. If you have more questions or need further details, feel free to ask! 😊🎓\n\nSource: Conversation with Copilot, 26/6/2024\n(1) IIT Kharagpur: Admission 2024, Cutoff, Courses, Fees ... - Collegedunia. https://collegedunia.com/university/26007-iit-kharagpur-indian-institute-of-technology-iitkgp-kharagpur.\n(2) Indian Institute of Technology Kharagpur | Ph.D. Admission. https://www.iitkgp.ac.in/phd-admission.\n(3) IIT Fee Structure 2024 - IIT Fees for BTech, MTech and other Courses. https://engineering.careers360.com/articles/iit-fee-structure."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719318628796",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_5_1719329557184",
+        "previous_sibling": "node_1_1719329553776"
+      },
+      {
+        "type": "standard",
+        "title": "inf",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! **IIT Kharagpur** boasts a well-established infrastructure that supports its academic and research endeavors. Here are some key aspects:\n\n1. **Campus Area**:\n   - The **IIT Kharagpur campus** spans **2100 acres**, making it one of the largest in India.\n   - It houses academic buildings, hostels, research centers, and recreational spaces.\n   - The campus is beautifully landscaped, providing a serene environment for learning and exploration¹.\n\n2. **Library**:\n   - The **Central Library** at IIT Kharagpur is a treasure trove of knowledge.\n   - It offers a vast collection of physical and digital resources, including books, journals, e-books, and databases.\n   - The library is a hub for research, study, and collaboration².\n\n3. **Hostels**:\n   - IIT Kharagpur has separate hostels for boys and girls.\n   - These hostels provide comfortable accommodation for students.\n   - Each hostel has its own mess facilities, common rooms, and recreational areas³.\n\n4. **Sports Facilities**:\n   - The campus encourages sports and physical fitness.\n   - Facilities include sports grounds, courts, and a swimming pool.\n   - Students can participate in various sports and games⁴.\n\n5. **Auditoriums and Common Spaces**:\n   - IIT Kharagpur has well-equipped auditoriums for seminars, conferences, and cultural events.\n   - Common spaces allow students to interact, collaborate, and unwind⁵.\n\nOverall, IIT Kharagpur's infrastructure provides a conducive environment for academic excellence, research, and personal growth. If you have more questions or need further details, feel free to ask! 😊🏫🔬\n\nSource: Conversation with Copilot, 26/6/2024\n(1) RCGSIDM | IITKGP. https://www.rcgsidm.com/.\n(2) IIT Kharagpur Facilities Details: Hostel, Campus, Infrastructure .... https://www.careers360.com/university/indian-institute-of-technology-kharagpur/facilities.\n(3) IIT Kharagpur Infrastructure: Library, Hostel, Labs, Gym ... - GetMyUni. https://www.getmyuni.com/college/indian-institute-of-technology-iit-kharagpur-facilities.\n(4) Indian Institute of Technology, Kharagpur, Kharagpur Infrastructure .... https://www.telegraphindia.com/edugraph/colleges/indian-institute-of-technology-kharagpur-iitkh/infrastructure/286.\n(5) Indian Institute of Technology Kharagpur. https://www.iitkgp.ac.in/department/ID?lang=en."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719318628796",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_7_1719329559940",
+        "previous_sibling": "node_5_1719329557184"
+      },
+      {
+        "type": "standard",
+        "title": "pl",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Let's explore the **placement statistics at IIT Kharagpur**:\n\n- **Placement Season 2024**:\n  - IIT Kharagpur's second phase of placements for 2024 concluded from January to April.\n  - More than **700 job offers** (including PPOs) were made across domains such as software, analytics, finance, banking, consulting, and core engineering.\n  - **19+ students** received international job offers, with **6 students** securing an annual CTC of over **INR 1 Crore**.\n  - Over **61 companies** actively participated in the placement drive.\n  - Notable recruiters included **Apple**, **Capital One**, **DE Shaw**, **Google**, **Microsoft**, **McKinsey**, and **Databricks**¹.\n\n- **Previous Years**:\n  - In 2023, IIT Kharagpur's **highest package** stood at **INR 2.6 Crore per annum**¹.\n  - The institute consistently attracts top companies and provides excellent placement opportunities for its students.\n\nIf you have more questions or need further details, feel free to ask! 😊🎓\n\nSource: Conversation with Copilot, 26/6/2024\n(1) IIT Kharagpur Placements 2024: Average Package, Highest ... - Collegedunia. https://collegedunia.com/university/26007-iit-kharagpur-indian-institute-of-technology-iitkgp-kharagpur/placement.\n(2) IIT Kharagpur Placements 2024 - Average & Highest Package, Percentage. https://www.collegedekho.com/colleges/iit-kharagpur-placement.\n(3) 33% IIT Kharagpur students did not receive placement ... - Moneycontrol. https://www.moneycontrol.com/education/33-iit-kharagpur-students-did-not-receive-placement-last-year-rti-data-article-12710717.html.\n(4) IIT Kharagpur Placements 2024: Top Recruiters, MBA Placements, Highest .... https://education.indianexpress.com/university/iit-kharagpur-indian-institute-of-technology-iitkgp-placements."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719318628796",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_3_1719329562623",
+        "previous_sibling": "node_7_1719329559940"
+      },
+      {
+        "type": "standard",
+        "title": "f h",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Let's explore the **food and hostel facilities** at **IIT Kharagpur**:\n\n1. **Hostels**:\n   - IIT Kharagpur has around **19 hostels**, providing accommodation for both male and female students.\n   - Hostels offer various room configurations, including single, double, and triple occupancy.\n   - Rooms typically come furnished with a bed, study table, chair, light, fan, and attached bathroom (in some cases).\n   - Common areas include study rooms, recreational lounges, and laundry facilities.\n   - The mess facilities provide diverse meals catering to different dietary preferences⁵⁷.\n\n2. **Mess Facilities**:\n   - The hostels have their own **mess halls** where students can have their meals.\n   - The menu is usually diverse, offering both vegetarian and non-vegetarian options.\n   - Quality and taste can vary across different hostels, but efforts are made to provide nutritious and satisfying food.\n   - Some hostels also have **night canteens** for late-night hunger pangs⁵.\n\n3. **Other Amenities**:\n   - Apart from hostels, IIT Kharagpur offers several facilities to students:\n     - **Uninterrupted and high-speed Wi-Fi** for academic and personal use.\n     - **Canteens**, **stationery shops**, **juice centers**, and **tea shops**.\n     - **Common room TVs**, **swimming pool**, and **gym facilities**.\n     - **Bank**, **market**, and other convenience services⁶.\n\nRemember that the hostel experience is an integral part of campus life, and IIT Kharagpur strives to provide comfortable and convenient accommodation for its students. If you have more questions or need further details, feel free to ask! 😊🏫🍽️\n\nSource: Conversation with Copilot, 26/6/2024\n(1) IIT Kharagpur Hostel: Fees & Facilities - Collegedunia. https://collegedunia.com/university/26007-iit-kharagpur-indian-institute-of-technology-iitkgp-kharagpur/hostel.\n(2) IIT Kharagpur Campus Infrastructure, Hostel Details & Facilities - Shiksha. https://www.shiksha.com/college/iit-kharagpur-indian-institute-of-technology-2999/infrastructure.\n(3) IIT Kharagpur Hostel (Halls of Residence) - Fees, Facilities .... https://www.collegesearch.in/articles/iit-kharagpur-hostel-uni.\n(4) . https://bing.com/search?q=IIT+Kharagpur+food+and+hostel+facilities.\n(5) Sarojini Naidu Indira Gandhi Hall of Residence. https://iitkgp.ac.in/halls/home.php.\n(6) IIT Kharagpur. https://www.iitkgp.ac.in/.\n(7) Azad Hall Of Residence. https://wiki.metakgp.org/w/MFQP.\n(8) IIT Kharagpur Facilities Details: Hostel, Campus, Infrastructure .... https://www.careers360.com/university/indian-institute-of-technology-kharagpur/facilities."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719318628796",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_1_1719329553776"
+      },
+      {
+        "type": "standard",
+        "title": "fee",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! The **tentative fee structure** for a **four-year Bachelor of Technology (B.Tech) or Bachelor of Science (B.Sc)** program at **IIT Kanpur** is as follows:\n\n- **General Category (2021 Batch):**\n  - Tuition Fee: ₹2,74,750 per semester\n  - Examination Registration: ₹24,750\n  - Other Fees: ₹23,500\n  - Total Fee for 4 Years: ₹8,38,000\n\n- **SC/ST Students (2021 Batch):**\n  - Tuition Fee: ₹2,64,250 per semester\n  - Examination Registration: ₹14,250\n  - Other Fees: ₹13,000\n  - Total Fee for 4 Years: ₹8,07,500\n\nPlease note that these figures are **indicative** and subject to change. For precise details, I recommend reaching out to the admission office directly³⁴. 🏫💰\n\nSource: Conversation with Copilot, 26/6/2024\n(1) INDIAN INSTITUTE OF TECHNOLOGY KANPUR. https://www.iitk.ac.in/dosa/data/Fee_Structure_for_2021_22_Ist_Semester-04-05-21.pdf.\n(2) IIT Kanpur - Admission 2024, Fees, Courses, Placement, Ranking. https://www.collegedekho.com/colleges/iit-kanpur.\n(3) . https://bing.com/search?q=iit+kanpur+fee.\n(4) Indian Institute of Technology. https://www.iitk.ac.in/.\n(5) IIT Kanpur UG & PG Courses & Fees 2024 - Shiksha. https://www.shiksha.com/college/iit-kanpur-indian-institute-of-technology-25116/courses.\n(6) IIT Kanpur. https://www.iitk.ac.in/dosa/data/Tentative_Fee_Structures_for_Academic_Year_2023-23-13-07-23.pdf.\n(7) Getty Images. https://www.gettyimages.com/detail/photo/campus-of-the-indian-institute-of-technology-kanpur-royalty-free-image/1254103695."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719318632650",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_9_1719329629760",
+        "previous_sibling": "node_1_1719329627450"
+      },
+      {
+        "type": "standard",
+        "title": "inf",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! **IIT Kanpur** boasts a sprawling campus spread across **1055 acres** of lush green area in **Kanpur, Uttar Pradesh**. Here are some highlights of its infrastructure:\n\n1. **Academic Area:**\n   - Central Library\n   - Departmental Buildings\n   - Research Centers\n   - Lecture Hall Complex\n   - Tutorial Block\n   - Auditorium\n\n2. **Student Facilities:**\n   - **Hostels:** Separate hostels for boys and girls.\n   - **Student Activities Centre (SAC):** A hub for extracurricular activities.\n   - **Sports Complex:** Facilities for various sports and fitness.\n   - **Air-Conditioned Classrooms:** Comfortable learning spaces.\n   - **Gym:** Fitness enthusiasts can stay active.\n   - **Shuttle Service:** Convenient transportation for students.\n\nFor more detailed information, you can explore the [official IIT Kanpur website](https://www.iitk.ac.in/ce/infrastructure-engineering-and-management) or refer to other sources²⁴⁵⁶. 🏫🌿\n\nSource: Conversation with Copilot, 26/6/2024\n(1) Indian Institute of Technology. https://www.iitk.ac.in/.\n(2) IIT Kanpur: Campus, Hostel & Other Facilities - GetMyUni. https://www.getmyuni.com/college/indian-institute-of-technology-iit-kanpur-facilities.\n(3) IIT Kanpur Infrastructure: Details, Reviews, Facilities - Shiksha. https://www.shiksha.com/college/iit-kanpur-indian-institute-of-technology-25116/infrastructure.\n(4) IIT Kanpur - Wikipedia. https://en.wikipedia.org/wiki/IIT_Kanpur.\n(5) . https://bing.com/search?q=iit+kanpur+infrastructure.\n(6) Infrastructure Engineering And Management - IIT Kanpur. https://www.iitk.ac.in/ce/infrastructure-engineering-and-management."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719318632650",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_2_1719329634575",
+        "previous_sibling": "node_9_1719329629760"
+      },
+      {
+        "type": "standard",
+        "title": "pl",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Here are the **placement statistics** for **IIT Kanpur**:\n\n- **Placement Season 2022-23 (Phase 1):**\n  - **1128 students** accepted job offers, including **208 PPOs** (pre-placement offers).\n  - **Highest domestic offer:** ₹1.9 Cr.\n  - **33 offers above ₹1 Cr** from various international and national organizations.\n  - Top recruiters: Rakuten Mobile, American Express, PwC, Intel, Microsoft India, and more¹.\n\n- **Placement Percentage (2023):**\n  - Approximately **90%** placement rate.\n  - Phase 1 report for 2024: **428 out of 485 students** placed, including **12 international offers**.\n  - Institute aims for up to **100% placements** through collaborations, interview preparations, and alumni sessions².\n\nIIT Kanpur continues to excel in providing excellent career opportunities for its students! 🚀🎓\n\nSource: Conversation with Copilot, 26/6/2024\n(1) Placement Season 2022-23 - IIT Kanpur. https://www.iitk.ac.in/new/placement-season-2022-23.\n(2) IIT Kanpur Placements 2023 - Average & Highest Package, Percentage. https://www.collegedekho.com/colleges/iit-kanpur-placement.\n(3) IIT Kanpur Placements 2024: Highest Package, Average CTC. https://education.indianexpress.com/university/iit-kanpur-indian-institute-of-technology-iitk-placements.\n(4) Campus Placements 2023 - IIT Kanpur. https://www.iitk.ac.in/new/campus-placements-2023."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719318632650",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_10_1719329654431",
+        "previous_sibling": "node_2_1719329634575"
+      },
+      {
+        "type": "standard",
+        "title": "fh",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! IIT Kanpur provides hostel facilities for both male and female students. Here are the details:\n\n1. **Hostel Rooms:**\n   - Double and triple occupancy rooms.\n   - Furnished with beds, cupboards, and study tables.\n   - Well-maintained but relatively small rooms.\n\n2. **Mess and Food:**\n   - Each hostel has its own mess serving nutritious food.\n   - Affordable and good quality of living.\n   - Food options cater to various dietary preferences.\n\n3. **Other Amenities:**\n   - 24x7 electricity, power backup, and sanitary facilities.\n   - TV room, reading room, sports amenities (basketball, football, badminton, volleyball), and computer center.\n   - Newspapers, journals, and magazines available.\n\nThe total hostel fee at IIT Kanpur is ₹15,385 per semester for both male and female students. If you need more specific information, consider reaching out to the institute directly¹²³. 🏫🛏️\n\nSource: Conversation with Copilot, 26/6/2024\n(1) . https://bing.com/search?q=iit+kanpur+food+and+hostel+facilities.\n(2) Indian Institute of Technology. https://www.iitk.ac.in/.\n(3) IIT Kanpur Hostel: Fees 2024, Facilities - Collegedunia. https://collegedunia.com/university/25948-iit-kanpur-indian-institute-of-technology-iitk-kanpur/hostel.\n(4) IIT Kanpur: Campus, Hostel & Other Facilities - GetMyUni. https://www.getmyuni.com/college/indian-institute-of-technology-iit-kanpur-facilities.\n(5) IIT Kanpur Campus Facilities - Hostel Fees, Infrastructure, Address. https://www.collegedekho.com/colleges/iit-kanpur-campus."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719318632650",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_1_1719329627450"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " BIT Mesra has state-of-the-art labs, libraries, sports facilities, and a well-maintained campus. The institute emphasizes on practical and research-oriented learning.\n     - *Links:* [BIT Mesra Infrastructure](https://www.bitmesra.ac.in/Show_Content_Section?cid=1&pid=31)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719326067429",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_5_1719331823976",
+        "previous_sibling": "node_9_1719331821711"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fees for BIT Mesra vary by program. For B.Tech programs, the annual fees are approximately INR 2,50,000.\n     - *Links:* [BIT Mesra Fees](https://www.bitmesra.ac.in/Show_Content_Section?cid=1&pid=48)\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719326067429",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_9_1719331821711",
+        "previous_sibling": "node_3_1719331819327"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "BIT Mesra has a strong placement record with top companies like TCS, Infosys, and Wipro visiting the campus. The average package is around INR 6-7 LPA.\n     - *Links:* [BIT Mesra Placements](https://www.bitmesra.ac.in/Visit_Department_Section?cid=1&deptid=82&pid=15)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719326067429",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_6_1719331826349",
+        "previous_sibling": "node_5_1719331823976"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "BIT Mesra offers hostel facilities with mess services providing a variety of meals. Hostels are well-equipped with Wi-Fi and recreational areas.\n     - *Links:* [BIT Mesra Hostel](https://www.bitmesra.ac.in/Visit_Department_Section?cid=1&deptid=93&pid=9"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719326067429",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_3_1719331819327"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The college boasts modern infrastructure with state-of-the-art labs, libraries, sports facilities, and a vibrant campus environment.\n     - *Links:* [DSCE Infrastructure](https://www.dsce.edu.in/infrastructure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719322779327",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_3_1719330474045",
+        "previous_sibling": "node_2_1719330471445"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The college boasts modern infrastructure with state-of-the-art labs, libraries, sports facilities, and a vibrant campus environment.\n     - *Links:* [DSCE Infrastructure](https://www.dsce.edu.in/infrastructure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719322779327",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_2_1719330471445",
+        "previous_sibling": "node_2_1719330469162"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Fees for DSCE range from INR 1,25,000 to 1,75,000 per year depending on the program.\n     - *Links:* [DSCE Fees](https://www.dsce.edu.in/admissions/fees-structure)\n\n   - *Infrastructure:*\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719322779327",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_2_1719330469162",
+        "previous_sibling": "node_5_1719330466813"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " DSCE offers excellent hostel facilities with mess providing a variety of food options. The hostels are well-maintained with all necessary amenities.\n     - *Links:* [DSCE Hostel](https://www.dsce.edu.in/campus-life/hostel-facilities)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719322779327",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_5_1719330466813"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Velammal has a dedicated placement cell with good placement statistics. Companies like Infosys, IBM, and Accenture frequently recruit from the campus.\n     - *Links:* [Velammal Placements](https://www.velammal.edu.in/placements.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1719322775974",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_9_1719330379166",
+        "previous_sibling": "node_9_1719330376345"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fees range around INR 1,00,000 to 1,20,000 per year for B.Tech courses.\n     - *Links:* [Velammal Fees](https://www.velammal.edu.in/fees.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1719322775974",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_4_1719330373668",
+        "previous_sibling": "node_3_1719330370798"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The college has modern infrastructure with well-equipped labs, libraries, and sports facilities, fostering a conducive learning environment.\n     - *Links:* [Velammal Infrastructure](https://www.velammal.edu.in/infrastructure.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1719322775974",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_9_1719330376345",
+        "previous_sibling": "node_4_1719330373668"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " Velammal Engineering College offers hostel facilities with attached mess providing varied cuisine options. Hostels are equipped with necessary amenities and recreational facilities.\n     - *Links:* [Velammal Hostel](https://www.velammal.edu.in/hostel.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1719322775974",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_3_1719330370798"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The college has developing infrastructure with well-equipped labs, libraries, and sports facilities.\n     - *Links:* [ACET Infrastructure](https://www.acetamritsar.ac.in/infrastructure.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719323545408",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_7_1719331161303",
+        "previous_sibling": "node_4_1719331158757"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Fees for ACET range from INR 90,000 to 1,20,000 per year for B.Tech programs.\n     - *Links:* [ACET Fees](https://www.acetamritsar.ac.in/fees.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719323545408",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_4_1719331158757",
+        "previous_sibling": "node_9_1719331156093"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "ACET has moderate placement opportunities with regional industry ties. The average package is around INR 3-4 LPA.\n     - *Links:* [ACET Placements](https://www.acetamritsar.ac.in/placements.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719323545408",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_8_1719331163976",
+        "previous_sibling": "node_7_1719331161303"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "ACET provides hostel facilities with mess services offering varied cuisine. Hostels are equipped with necessary amenities and recreational facilities.\n     - *Links:* [ACET Hostel](https://www.acetamritsar.ac.in/hostel.php)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719323545408",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_9_1719331156093"
+      },
+      {
+        "type": "standard",
+        "title": "placement",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Let’s take a look at the placement statistics for IIT Madras:\n\n2021-22 Placement Summary:\nB.Tech: The average salary was ₹17.54 lakhs, with a median of ₹13.02 lakhs.\nDual Degree: The median salary was ₹16.63 lakhs.\nM.Tech: The average salary stood at ₹15.00 lakhs.\nM.A., M.Sc, and M.S.: The median salary ranged from ₹10 lakhs to ₹22 lakhs.\nPh.D.: Salary details were not provided1.\n2023 Placements:\nApproximately 496 UG (4-year) students were placed with an average salary of ₹17.00 lakhs.\n325 UG (5-year) students received a median package of ₹16.63 lakhs.\n578 PG (2-year) students secured positions with an average salary of ₹15.00 lakhs.\n160 PG (3-year) students also had an average salary of ₹15.00 lakhs.\n2024 Placements:\nIIT Madras placed about 80% of BTech and dual degree students and 75% of MTech students.\nA total of 1091 students were placed, and 256 companies participated in the placement drive.\nNotably, 55% of the placed students came from socially and economically challenging backgrounds, and 15 candidates received international offers."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719316060439",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_1_1719328513532",
+        "previous_sibling": "node_1_1719328510506"
+      },
+      {
+        "type": "standard",
+        "title": "fees",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! The IIT Madras fee structure for the Jan-May 2024 semester varies based on the category of students. Here’s a concise breakdown:\n\nGeneral/OBC/EWS Category:\nParental income above Rs. 5 Lakhs per annum: ₹11,350\nParental income between Rs. 1L and Rs. 5L per annum: ₹44,683\nParental income below Rs. 1 Lakh per annum: ₹11,350\nSC/ST Category (with scholarship): ₹5,350\nSC/ST Category (without scholarship) & all PWD students: ₹11,350\nRemember that these figures are approximate and subject to change. For specific details and eligibility criteria, refer to the official fee circular provided by IIT Madras here. "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719316060439",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_8_1719328508065",
+        "previous_sibling": "node_7_1719328503177"
+      },
+      {
+        "type": "standard",
+        "title": "infrastructure",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Let me provide you with an overview of the infrastructure at IIT Madras:\n\nCampus Area:\nThe IIT Madras campus spans 617 acres of land, extending over 2.5 kilometers in Chennai, Tamil Nadu1.\nSelf-Contained Campus:\nIIT Madras is a self-contained campus with various amenities.\nIt includes two schools (Vanavani and Kendriya Vidyalaya), three temples (Jalakanteshwara, Durga Peliamman, and Ganapathi), three bank branches (SBI, ICICI, Canara Bank), a hospital, shopping centers, food shops, a gym, and sports facilities (cricket, football, hockey, and badminton stadiums)2.\nAcademic Departments and Laboratories:\nThe institute houses sixteen academic departments and several research centers in various disciplines of engineering and pure sciences.\nThere are nearly 100 laboratories for research and experimentation"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719316060439",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_1_1719328510506",
+        "previous_sibling": "node_8_1719328508065"
+      },
+      {
+        "type": "standard",
+        "title": "food and hostel",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Here’s a concise summary of the food and hostel facilities at IIT Madras:\n\nIIT Madras offers vibrant hostel life with several hostels on campus. Each hostel provides basic amenities such as 24x7 electricity, power backup, and sanitary facilities. Recreational spaces like TV rooms, reading rooms, and sports amenities (basketball court, football field, badminton court, and volleyball court) enhance the student experience. Additionally, every hostel has its own mess and canteen, ensuring access to food until 2 a.m. Overall, IIT Madras strives to provide nutritious and satisfying meals for its students. If you have more questions or need further details, feel free to ask! 😊🏫🍽️"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1719316060439",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_7_1719328503177"
+      },
+      {
+        "type": "standard",
+        "title": "IIT GANDHINAGAR",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:10",
+        "dialog_node": "node_8_1719319947445",
+        "previous_sibling": "node_10_1719319943647"
+      },
+      {
+        "type": "standard",
+        "title": "IIT HYDERABAD",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:9",
+        "dialog_node": "node_10_1719319943647",
+        "previous_sibling": "node_10_1719319938493"
+      },
+      {
+        "type": "standard",
+        "title": "IIT GUWAHATI",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:7",
+        "dialog_node": "node_7_1719319881690",
+        "previous_sibling": "node_7_1719319876194"
+      },
+      {
+        "type": "standard",
+        "title": "IIT BHUBANESHWAR",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:8",
+        "dialog_node": "node_10_1719319938493",
+        "previous_sibling": "node_7_1719319881690"
+      },
+      {
+        "type": "standard",
+        "title": "IIT BOMBAY",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_1_1719318625714",
+        "previous_sibling": "node_4_1719318620326"
+      },
+      {
+        "type": "standard",
+        "title": "IIT KANPUR",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:5",
+        "dialog_node": "node_7_1719318632650",
+        "previous_sibling": "node_7_1719318628796"
+      },
+      {
+        "type": "standard",
+        "title": "IIT ROOKEE",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:6",
+        "dialog_node": "node_7_1719319876194",
+        "previous_sibling": "node_7_1719318632650"
+      },
+      {
+        "type": "standard",
+        "title": "IIT DELHI",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_4_1719318620326",
+        "previous_sibling": "node_10_1719316060439"
+      },
+      {
+        "type": "standard",
+        "title": "IIT KHARAGPUR",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well done! What are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_7_1719318628796",
+        "previous_sibling": "node_1_1719318625714"
+      },
+      {
+        "type": "standard",
+        "title": "IIT MADRAS",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well Done! 🌟 IIT Madras, also known as Indian Institute of Technology Madras, is a prestigious public technical university located in Chennai, Tamil Nadu, India\n\nWhat are the information do you want to know this institution??\nselect the list of option below->\n1)food and hostel\n2)fees\n3)infrastructure\n4)placement\n\nkindly choose one of the option as per given number!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1719245759531",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_10_1719316060439"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fees for DIAT vary by program. For M.Tech programs, the annual fees are approximately INR 1,10,000. The fee structure for Ph.D. and other programs may differ.\n  - *Links:* [DIAT Fees](https://www.diat.ac.in/admissions/fee-structure/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719326073685",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_1_1719332255932",
+        "previous_sibling": "node_5_1719332253666"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " DIAT has a good placement record with defense research organizations and private companies in the defense and aerospace sectors. Major recruiters include DRDO, HAL, and various defense PSUs. The highest package can go up to INR 15-20 LPA, with an average package around INR 6-8 LPA.\n  - *Links:* [DIAT Placements](https://www.diat.ac.in/placements/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719326073685",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_3_1719332261780",
+        "previous_sibling": "node_7_1719332259295"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "DIAT has state-of-the-art infrastructure with advanced laboratories, a central library, modern classrooms, and dedicated research centers. The campus includes sports facilities, a health center, and an auditorium.\n  - *Links:* [DIAT Infrastructure](https://www.diat.ac.in/infrastructure/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719326073685",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_7_1719332259295",
+        "previous_sibling": "node_1_1719332255932"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "DIAT provides separate hostel facilities for boys and girls with well-maintained rooms equipped with basic amenities. The hostels offer high-speed internet, recreational rooms, and sports facilities. The mess provides nutritious meals catering to diverse tastes.\n  - *Links:* [DIAT Hostel](https://www.diat.ac.in/hostel-facilities/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1719326073685",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_5_1719332253666"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " IGIDR has a good placement record with companies and organizations in economic research and development sectors. The average package is around INR 9-10 LPA.\n     - *Links:* [IGIDR Placements](http://www.igidr.ac.in/placements/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719326059384",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_4_1719331676665",
+        "previous_sibling": "node_4_1719331674269"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fees for IGIDR vary by program. For M.Sc. in Economics, the annual fees are approximately INR 16,000.\n     - *Links:* [IGIDR Fees](http://www.igidr.ac.in/fees/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719326059384",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_2_1719331670904",
+        "previous_sibling": "node_4_1719331410252"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IGIDR has modern classrooms, a well-stocked library, and advanced research facilities. The campus includes recreational facilities and a gym.\n     - *Links:* [IGIDR Infrastructure](http://www.igidr.ac.in/infrastructure/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719326059384",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_4_1719331674269",
+        "previous_sibling": "node_2_1719331670904"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IGIDR provides hostel facilities with mess services offering a variety of meals. Hostels are well-equipped with Wi-Fi and recreational areas.\n     - *Links:* [IGIDR Hostel](http://www.igidr.ac.in/hostel-and-canteen/)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719326059384",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_4_1719331410252"
+      },
+      {
+        "type": "standard",
+        "title": "plc",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Let's delve into the **placement statistics at IIT Bombay** for recent years:\n\n1. **Placement Season 2020-21**:\n   - The placement drive at IIT Bombay spanned from July 2020 to June 2021.\n   - A total of **1970 students** registered for placements, including bachelor's, master's, and Ph.D. programs.\n   - **1261 offers** were made across both phases, with **1150 accepted offers**.\n   - Notably, there were **149 pre-placement offers (PPOs)** and **58 international job offers**¹.\n\n2. **Placement Season 2022-23**:\n   - In the academic year 2022-23, **82% of actively participating students** secured placements.\n   - Among B.Tech, Dual Degree, and M.Tech students, **close to 90%** successfully secured jobs².\n\n3. **Placement Season 2023-24**:\n   - The highest international package offered was **INR 3.67 crore per annum (CPA)**.\n   - The highest domestic package stood at **INR 1.31 CPA**.\n   - A total of **1431 students** were successfully placed across **293 companies**.\n   - Around **300 Pre-Placement Offers (PPOs)** were extended³.\n\nIIT Bombay continues to attract top recruiters and provide excellent placement opportunities for its students. If you need more details or have other queries, feel free to ask! 😊🎓\n\nSource: Conversation with Copilot, 26/6/2024\n(1) Placement & Internship Report 2020-21 - IIT Bombay. https://campus.placements.iitb.ac.in/static/2021/Placement-and-internship-report.pdf.\n(2) 5(3257 ,17(516+,3 AcademicYear2022-2023 3/$&(0(17$1'. https://campus.placements.iitb.ac.in/static/docs/placement_report_2022_23.pdf.\n(3) IIT Bombay Placements 2024: Highest, Average and Median CTCs. https://education.indianexpress.com/university/it-bombay-indian-institute-of-technology-iitb-placements.\n(4) IIT Bombay Placements 2023 – Average Package, Highest Package, Salary. https://www.careers360.com/university/indian-institute-of-technology-bombay/placement."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719318625714",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_3_1719329489489",
+        "previous_sibling": "node_9_1719329486387"
+      },
+      {
+        "type": "standard",
+        "title": "fee",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! The **fee structure for IIT Bombay** varies based on the program and duration. Here are some details:\n\n1. **Undergraduate Programs (B.Tech, Dual Degree, B.S., B.Des.)**:\n   - Tuition Fee: ₹9,12,000 for 4 years.\n   - Hostel Fees: Varies based on the batch and semester.\n   - Mess Advance: Paid separately each semester¹³.\n\n2. **Postgraduate Programs (M.Tech, M.Phil)**:\n   - Tuition Fee: ₹1,47,500 for 2 years.\n   - Hostel Fees: Varies based on the batch and semester.\n   - Mess Advance: Paid separately each semester¹³.\n\n3. **Ph.D. Programs**:\n   - Tuition Fee: Varies based on the duration.\n   - Hostel Fees: Varies based on the batch and semester.\n   - Mess Advance: Paid separately each semester¹³.\n\nRemember that these figures are approximate and subject to change. For specific details and eligibility criteria, refer to the official fee circular provided by IIT Bombay. If you have any more questions, feel free to ask! 😊🎓\n\nSource: Conversation with Copilot, 26/6/2024\n(1) Fees Structure - Indian Institute of Technology Bombay | IIT Bombay. https://www.iitb.ac.in/newacadhome/FeesStructure.jsp.\n(2) IIT Bombay - Courses and Fees Structure 2023 | CollegeSearch. https://www.collegesearch.in/colleges/indian-institute-of-technology-bombay-iit-bombay-mumbai/courses-fees.\n(3) IIT Bombay Courses & Fees Structure 2024 - Course, Fee - CollegeDekho. https://www.collegedekho.com/colleges/iitb-courses.\n(4) en.wikipedia.org. https://en.wikipedia.org/wiki/IIT_Bombay."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719318625714",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_7_1719329483903",
+        "previous_sibling": "node_10_1719329481163"
+      },
+      {
+        "type": "standard",
+        "title": "inf",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Let's explore the **infrastructure at IIT Bombay**:\n\n1. **Campus Area**:\n   - The **IIT Bombay campus** spans **330 acres** and is divided into different functional areas:\n     - **West Campus (Hostel Area)**: This section houses student hostels.\n     - **East Campus (Residential Area)**: It accommodates faculty and staff residences.\n     - **Main Administrative Building and Academic Area**: Home to academic departments, laboratories, and administrative offices⁶.\n\n2. **Central Library**:\n   - The **Central Library** occupies a place of pride in IIT Bombay.\n   - It provides a safe, comfortable, and friendly environment for learning, research, and scholarship.\n   - The library's mission is to facilitate the creation of new knowledge through acquisition, organization, and dissemination of knowledge resources².\n\n3. **Smart Campus and Modern Infrastructure**:\n   - IIT Bombay is equipped with advanced laboratories and modern infrastructure.\n   - Students have access to state-of-the-art facilities, enabling hands-on experience with technological advancements⁴.\n\n4. **Hostels**:\n   - IIT Bombay has **17 hostels** on campus, each with its own mess facilities and amenities.\n   - Hostels provide accommodation for students, contributing to their holistic academic development and comfort⁵.\n\nRemember that IIT Bombay strives to create an environment where students can thrive academically and personally. If you have more questions or need further details, feel free to ask! 😊🏫🔬\n\nSource: Conversation with Copilot, 26/6/2024\n(1) IIT Bombay - Wikipedia. https://en.wikipedia.org/wiki/IIT_Bombay.\n(2) Indian Institute of Technology Bombay. https://www.iitb.ac.in/.\n(3) IIT Bombay Facilities Details: Hostel, Campus, Infrastructure, Library .... https://www.careers360.com/university/indian-institute-of-technology-bombay/facilities.\n(4) IIT Bombay: Campus, Hostel & Other Facilities - GetMyUni. https://www.getmyuni.com/college/indian-institute-of-technology-iit-bombay-facilities.\n(5) . https://bing.com/search?q=IIT+Bombay+infrastructure.\n(6) The Office of Dean - Infrastructure Planning & Support ... - IIT Bombay. https://www.iitb.ac.in/deanpl/."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719318625714",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_9_1719329486387",
+        "previous_sibling": "node_7_1719329483903"
+      },
+      {
+        "type": "standard",
+        "title": "f h",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Let's explore the **food and hostel facilities** at **IIT Bombay**:\n\n1. **Hostels**:\n   - IIT Bombay has **17 hostels** on campus, including **hostels 1 to 16**, **hostel 18**, and **Tansa**.\n   - Each hostel is an independent entity with its own **mess facilities**, recreational areas, and amenities.\n   - Students can also choose to make their own arrangements for accommodation outside the campus⁹.\n\n2. **Hostel Fees (2024)**:\n   - **Male Hostel Fee**: ₹15,850 per semester\n     - Electricity & Water Charges: ₹3,450\n     - Hostel Establishment Charges: ₹3,600\n     - Hostel Rent: ₹2,400\n     - Mess Establishment Charges: ₹1,900\n     - Hostel Amenities Fund: ₹1,500\n     - Hostel-Mess Security Deposit (one-time): ₹3,000\n   - **Female Hostel Fee**: ₹15,850 per semester (similar structure as male hostel fee)\n   - Mess Advance: ₹22,500 per semester\n\n3. **Hostel Experience**:\n   - Freshers receive good hostels, but from the second year onwards, older hostels are allotted.\n   - Some older hostels may not be in optimal condition.\n   - Mess menus offer a variety of food, but quality can vary.\n   - Hostels are allotted during admission, and the process is straightforward.\n   - Considering Mumbai's high rents, on-campus hostels are affordable and value for money³.\n\n4. **Female Hostels**:\n   - Female students reside in **Hostel 16** in their first year (women-only wing).\n   - In subsequent years, they reside in **Hostels 15, 10, and 11**, which are exclusively for female residents¹⁷.\n\nRemember, the hostel experience is an integral part of campus life, and IIT Bombay strives to provide comfortable and convenient accommodation for its students. If you have more questions or need further details, feel free to ask! 😊🏫🍽️\n\nSource: Conversation with Copilot, 26/6/2024\n(1) Hostels | IDC School of Design, Indian Institute of Technology Bombay .... https://www.idc.iitb.ac.in/admission/hostels.\n(2) IIT Bombay Hostels: Fees & Rooms details 2024 - Collegedunia. https://collegedunia.com/university/25703-iit-bombay-indian-institute-of-technology-iitb-mumbai/hostel.\n(3) Frequently Asked Questions | Prospective Women Students - IIT Bombay. https://www.iitb.ac.in/womenstudents/en/frequently-asked-questions.\n(4) . https://bing.com/search?q=food+and+hostel+facilities+IIT+Bombay.\n(5) Mahavir Guest House & Food Court. https://www.mahavir-guest-house-food-court-bhubaneswar.hotelmix.es.\n(6) IIT Bombay Hostel: Location, Facilities, Structure, Council, Culture. https://www.collegesearch.in/articles/iit-bombay-hostel-uni.\n(7) Phoenix|Hostel-10 - IIT Bombay. https://gymkhana.iitb.ac.in/~hostel10/.\n(8) Hostel Facilities at IIT Bombay - Shiksha. https://www.shiksha.com/articles/hostel-facilities-at-iit-bombay-blogId-118815.\n(9) . https://bing.com/search?q=IIT+Bombay+Hostel.\n(10) Hostel 1, IIT Bombay. https://www.iitb.ac.in/en/about-iit-bombay/student-hostels.\n(11) IIT Bombay: Campus, Hostel & Other Facilities - GetMyUni. https://www.getmyuni.com/college/indian-institute-of-technology-iit-bombay-facilities.\n(12) Guest House IIT Bombay. https://guesthouse.iitb.ac.in/.\n(13) . https://bing.com/search?q=IIT+Bombay+Hostel+For+Male.\n(14) IIT-Bombay To Introduce Co-Ed Hostel Complex For Student Accommodation. https://www.freepressjournal.in/education/iit-bombay-to-introduce-co-ed-hostel-complex-for-student-accommodation.\n(15) HOSTEL ACCOMMODATION - Indian Institute of Technology Bombay | IIT Bombay. https://www.iitb.ac.in/newacadhome/NEW_ENTRANTS_PG_PHD_HOSTEL_GENERALINSTRUCTIONS.pdf.\n(16) Applicants Accomodation Request - IIT Bombay. https://gymkhana.iitb.ac.in/~hostels/acco-mtech/.\n(17) . https://bing.com/search?q=IIT+Bombay+Hostel+For+Female.\n(18) Hostel - Indian Institute of Technology Bombay. https://acr.iitbombay.org/causes/hostel/.\n(19) . https://bing.com/search?q=IIT+Bombay+Hostels.\n(20) Hostels near IIT Bombay Mumbai at 70% off from Goibibo. https://www.goibibo.com/hotels/hostels-in-mumbai/near-iit-bombay-lp/."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1719318625714",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_10_1719329481163"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The tuition fee for B.Tech programs is around INR 2,25,000 per year. Specific hostel fees can vary [[❞]](https://www.careers360.com/university/indian-institute-of-technology-gandhinagar/facilities) [[❞]](https://www.collegedekho.com/colleges/iit-gandhinagar-campus).\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719319947445",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_3_1719330029006",
+        "previous_sibling": "node_5_1719330026400"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "In 2024, the average salary for B.Tech graduates was INR 15.5 LPA, with top recruiters like Google, Microsoft, and Amazon participating in campus placements [[❞]](https://www.careers360.com/university/indian-institute-of-technology-gandhinagar/facilities) [[❞]](https://www.collegedekho.com/colleges/iit-gandhinagar-campus)."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719319947445",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_3_1719330034855",
+        "previous_sibling": "node_7_1719330032059"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The 400-acre campus includes a state-of-the-art library, a gym, sports facilities, medical facilities, and a modern IT infrastructure with Wi-Fi across the campus [[❞]](https://www.careers360.com/university/indian-institute-of-technology-gandhinagar/facilities) [[❞]](https://www.collegedekho.com/colleges/iit-gandhinagar-campus).\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719319947445",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_7_1719330032059",
+        "previous_sibling": "node_3_1719330029006"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IIT Gandhinagar has eight hostels with central air conditioning, offering recreational facilities such as a student lounge, TV, art room, and music room. The campus includes multiple eateries [[❞]](https://www.careers360.com/university/indian-institute-of-technology-gandhinagar/facilities) [[❞]](https://www.collegedekho.com/colleges/iit-gandhinagar-campus).\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719319947445",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_5_1719330026400"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " IIST boasts state-of-the-art laboratories, a well-equipped library, advanced research centers, and modern classrooms. The campus also includes sports facilities, a health center, and an auditorium.\n     - *Links:* [IIST Infrastructure](https://www.iist.ac.in/campus/infrastructure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1719326081518",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_7_1719332319066",
+        "previous_sibling": "node_5_1719332308422"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " IIST has a strong placement record with major recruiters including ISRO and other aerospace organizations. The highest package can go up to INR 10-12 LPA, with an average package around INR 8-9 LPA.\n     - *Links:* [IIST Placements](https://www.iist.ac.in/placements)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1719326081518",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_2_1719332321710",
+        "previous_sibling": "node_7_1719332319066"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The fees for IIST are subsidized by the Government of India. For B.Tech programs, the annual fees are approximately INR 48,000, including tuition and other charges.\n     - *Links:* [IIST Fees](https://www.iist.ac.in/admissions/undergraduate/fees)\n\n   -"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1719326081518",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_5_1719332308422",
+        "previous_sibling": "node_6_1719332305778"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "IST provides separate hostels for boys and girls with modern amenities like Wi-Fi, recreational rooms, and mess facilities offering a variety of meals. The hostels are well-maintained and secure.\n     - *Links:* [IIST Hostel](https://www.iist.ac.in/campus/hostels)\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1719326081518",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_6_1719332305778"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "COEP has an excellent placement record with top recruiters like Google, Microsoft, and Tata visiting the campus. The average salary package is around INR 7-8 LPA.\n     - *Links:* [COEP Placements](https://www.coep.org.in/placements)\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1719322769753",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_7_1719330276552",
+        "previous_sibling": "node_7_1719330274186"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " Tuition fees vary depending on the course and category (general, reserved). For B.Tech, it ranges approximately from INR 80,000 to 1,00,000 per year.\n     - *Links:* [COEP Fee Structure](https://www.coep.org.in/fees)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1719322769753",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_5_1719330153982",
+        "previous_sibling": "node_3_1719330151103"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "- COEP boasts state-of-the-art laboratories, a well-stocked library, advanced research centers, and sports facilities. It also has a strong emphasis on practical and project-based learning.\n     - *Links:* [COEP Infrastructure](https://www.coep.org.in/infrastructure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1719322769753",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_7_1719330274186",
+        "previous_sibling": "node_5_1719330153982"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "COEP offers separate hostels for boys and girls with mess facilities providing a variety of cuisines. The hostels are equipped with Wi-Fi, common rooms, and recreational areas.\n     - *Links:* [COEP Hostel Information](https://www.coep.org.in/hostel)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1719322769753",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_3_1719330151103"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "- The fees at VIT vary depending on the program and the merit category. For B.Tech programs, the fees range from INR 1,76,000 to 1,98,000 per year for Category 1. Higher categories and international students have different fee structures.\n     - *Links:* [VIT Fee Structure](https://vit.ac.in/admissions/ug/fee-structure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719323549995",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:2",
+        "dialog_node": "node_4_1719331214219",
+        "previous_sibling": "node_7_1719331210715"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": " VIT has an outstanding placement record with a dedicated Career Development Center (CDC). Top recruiters like Microsoft, Amazon, and Google visit the campus annually. The highest package can go up to INR 44 LPA, while the average package is around INR 7.3 LPA.\n     - *Links:* [VIT Placements](https://vit.ac.in/placements/overview)\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719323549995",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:4",
+        "dialog_node": "node_5_1719331219323",
+        "previous_sibling": "node_3_1719331216870"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "VIT is known for its world-class infrastructure, including state-of-the-art labs, a fully automated central library, smart classrooms, and extensive research facilities. The campus also has sports facilities, including indoor and outdoor stadiums, and a large auditorium.\n     - *Links:* [VIT Infrastructure](https://vit.ac.in/campus/infrastructure)\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719323549995",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:3",
+        "dialog_node": "node_3_1719331216870",
+        "previous_sibling": "node_4_1719331214219"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "VIT offers extensive hostel facilities for both boys and girls, with options for single, double, and triple occupancy rooms. The hostels are equipped with high-speed Wi-Fi, gym, common rooms, and laundry services. The campus has numerous dining options, including multi-cuisine messes and food courts.\n     - *Links:* [VIT Hostel](https://vit.ac.in/campus/hostels)\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1719323549995",
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "@sys-number:1",
+        "dialog_node": "node_7_1719331210715"
+      },
+      {
+        "type": "standard",
+        "title": "Bye",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Bye. I am here to help you out all time."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "#Bye",
+        "dialog_node": "node_5_1718801987972",
+        "previous_sibling": "node_7_1719266823766"
+      },
+      {
+        "type": "standard",
+        "title": "best colleges iit",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Here are the top 10 Indian Institutes of Technology (IITs) based on the NIRF rankings for 2024:\n\n1)IIT Madras  \n2)IIT Delhi  \n3)IIT Bombay \n4)IIT Kharagpur \n5)IIT Kanpur \n6)IIT Roorkee\n7)IIT Guwahati\n8)IIT Bhubaneswar\n9)IIT Hyderabad\n10)IIT Gandhinagar"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            },
+            {
+              "values": [
+                {
+                  "text": "To know more information about the above colleges enter the corresponding rank above mentioned."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "#best_college",
+        "dialog_node": "node_7_1719245759531",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "deemed university",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Here are the top 10 Deemed-to-be-Universities based on the IIRF rankings for 2024:\n\n1.Indian Institute of Science (IISc),Bangalore.\n2.Homi Bhabha National Institute,Mumbai.\n3.Indira Gandhi Institute of Development Research,Mumbai.\n4.Indian Agricultural Research Institute,Pusa.\n5.Indian Institute of Foreign Trade (IIFT),New Delhi.\t\n6.Birla Institute of Technology (BIT), Jharkhand.\n7.Tata Institute of Social Sciences (TISS) ,Mumbai.\t\n8.Defence Institute of Advanced Technology ,Pune.\t\n9.University Institute of Chemical Technology ,Mumbai.\t\n10.Indian Institute of Space Science and Technology, Thiruvananthapuram."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "#deemed",
+        "dialog_node": "node_7_1719266823766",
+        "previous_sibling": "node_3_1719266416654"
+      },
+      {
+        "type": "standard",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "It's my pleasure! I'm here to help you all the time"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "#Thanks",
+        "dialog_node": "node_4_1719244335961",
+        "previous_sibling": "node_5_1718801987972"
+      },
+      {
+        "type": "standard",
+        "title": "autonomous",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certainly! Here are the top 10 Autonomous Institutions based on the NIRF rankings for 2024:\n\n1)College of Engineering, Pune\n2)PSG College of Technology, Coimbatore\t\n3)Velammal Engineering College, Chennai\n4)Dayananda Sagar College of Engineering, Bangalore\t\n5)Heritage Institute of Technology, Kolkata\n6)Sardar Patel College of Engineering, Mumbai\n7)The National Institute of Engineering, Mysore\n8)Amritsar College of Engineering and Technology, Amritsar\t\n9)Vellore Institute of Technology, Vellore\n10)M.S. Ramaiah Institute of Technology, Bangalore"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "#autonomous",
+        "dialog_node": "node_3_1719266416654",
+        "previous_sibling": "node_7_1719245759531"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello. How can I help you?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-06-27T00:34:22.333Z",
+        "updated": "2024-06-27T00:34:22.333Z",
+        "conditions": "#Greeting",
+        "digress_in": "does_not_return",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [],
+    "learning_opt_out": false
+  },
+  "description": "Initial chatbot implementation",
+  "assistant_id": "51e77da5-4a42-4793-b839-b11ee53dd604",
+  "dialog_settings": {
+    "source_assistant": "1c248694-c681-43f2-813e-07be58d6db53"
+  },
+  "assistant_references": [
+    {
+      "name": "Counselling Assistant",
+      "assistant_id": "1c248694-c681-43f2-813e-07be58d6db53",
+      "skill_reference": "main skill"
+    }
+  ]
+}
